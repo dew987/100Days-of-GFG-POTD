@@ -18,7 +18,6 @@ public:
         {
             return false;
         }
-        
         board[i][j]= '*';
         return (checkForPattern(board, word, index+1, i, j-1, n, m) || checkForPattern(board, word, index+1, i-1, j, n, m) || checkForPattern(board, word, index+1, i, j+1, n, m) || checkForPattern(board, word, index+1, i+1, j, n, m));
         

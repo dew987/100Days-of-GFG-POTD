@@ -40,6 +40,7 @@ int getNthFromLast(struct Node* head, int n);
 int getNthFromLast(Node *head, int n)
 {
        // Your code here
+       
        int count= 0;
        Node * p= head;
        while(p!= NULL)

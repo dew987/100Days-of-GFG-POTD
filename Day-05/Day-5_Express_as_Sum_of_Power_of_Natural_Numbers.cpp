@@ -35,6 +35,7 @@ class Solution{
     int numOfWays(int n, int x)
     {
         // code here
+        
         vector<int> squared;
         for(int i= 1; i<=n; i++)
         {

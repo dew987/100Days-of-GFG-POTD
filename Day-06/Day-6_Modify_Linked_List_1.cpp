@@ -57,6 +57,7 @@ class Solution{
                 Solution::curr= q;
             
             return;
+            
         }
         updateLL(countNodes, i+1, q->next);
         if(Solution::curr != NULL)

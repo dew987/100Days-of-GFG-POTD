@@ -12,6 +12,6 @@ This problem is a similar variation of Longest Common Subsequence problem.
      - Else set table[i][j] as max of table[i-1][j] and table[i][j-1](left and top elemens).
 3. Return table[n][n].
 
-**Time Complexity:-** O(N)
+**Time Complexity:-** O(N^2)
 
-**Space Complexity:-** O(N)
+**Space Complexity:-** O(N^2)
